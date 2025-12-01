@@ -18,28 +18,16 @@ To analyze the relationship between input and received signal of a 600nm fiber o
 
 ## THEORY
 
-Fiber optic links can be used for transmission of digital as well as analog signals. A fiber optic link typically consists of three main elements:
-- **Transmitter**: Converts the electrical input signal into optical (light) energy.
-- **Optical Fiber**: Serves as the transmission medium for the light signal.
-- **Receiver**: Converts the received light back into an electrical signal, preserving the original signal pattern.
+<img width="766" height="654" alt="image" src="https://github.com/user-attachments/assets/aeef4d52-20b4-4a41-8189-c2c6523b4b22" />
+
 
 ---
 
 ## PROCEDURE
 
-1. Connect the power supply to the board.  
-2. Ensure that all switched faults are set to ‘Off’.  
-3. Make the following connections:  
-   a. Connect the 1 KHz square wave output to emitter 1's input.  
-   b. Connect the fiber optic cable between emitter output and detector input.  
-   c. Connect detector 1's output to comparator 1’s input.  
-   d. Connect comparator 1's output to AC amplifier 1's input.  
-4. On the board, switch emitter 1's driver to digital mode.  
-5. Switch on the power.  
-6. Monitor both the inputs to comparator 1 (TP13 & TP14). Slowly adjust the comparator's bias preset until the DC level on TP13 lies midway between the high and low levels of the signal on TP14.  
-7. Observe the input to emitter 1 (TP5) and the output from AC amplifier 1 (TP28). Verify that both signals are identical.  
-8. Vary the frequency between 10 Hz to 1 MHz and observe the output voltage for a constant input voltage of 5V.  
-9. Calculate the bandwidth by determining the gain in decibels (dB).  
+<img width="787" height="538" alt="image" src="https://github.com/user-attachments/assets/6eeff48d-f187-4438-8b8d-2f747d242562" />
+<img width="782" height="776" alt="image" src="https://github.com/user-attachments/assets/b888b671-462b-4cf0-8e76-b48c4da73169" />
+
 
 ---
 
